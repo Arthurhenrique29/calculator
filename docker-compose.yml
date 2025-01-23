@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  calculadora:
+    build:
+      context: .
+    ports:
+      - "8080:8080"
+    container_name: calculator-app
+    
+    
