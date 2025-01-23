@@ -5,7 +5,7 @@ services:
     build:
       context: .
     ports:
-      - "8080:8080"
+      - "9090:9090"
     container_name: calculator-app
-    
+
     
